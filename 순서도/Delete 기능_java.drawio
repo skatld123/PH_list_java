@@ -1,54 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T05:38:22.932Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="i1crZszMn-bk6Hc6lGeR" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T08:01:51.035Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="rF4y8jwG-hEx3snWnQXo" version="14.4.4" type="github">
   <diagram id="snMSLyNpEliFtqH8T0_m" name="페이지-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MicS51efgdV4Yqa2tdts-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MicS51efgdV4Yqa2tdts-4" target="MicS51efgdV4Yqa2tdts-6" edge="1">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="lsQyMnqyiSCvds43gTbh-3" target="lsQyMnqyiSCvds43gTbh-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MicS51efgdV4Yqa2tdts-4" value="Delete 함수 호출(실행)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="231" y="60" width="169" height="60" as="geometry" />
+        <mxCell id="lsQyMnqyiSCvds43gTbh-3" value="remove() 함수 사용하여 &lt;br&gt;i 번째 배열 삭제" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="295" y="-130" width="146" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="MicS51efgdV4Yqa2tdts-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MicS51efgdV4Yqa2tdts-6" target="MicS51efgdV4Yqa2tdts-8" edge="1">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lsQyMnqyiSCvds43gTbh-4" target="lsQyMnqyiSCvds43gTbh-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MicS51efgdV4Yqa2tdts-6" value="char DeleteName[10];" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="231" y="160" width="169" height="50" as="geometry" />
+        <mxCell id="lsQyMnqyiSCvds43gTbh-4" value="Start&lt;br&gt;(Delete)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="303" y="-820" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MicS51efgdV4Yqa2tdts-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MicS51efgdV4Yqa2tdts-8" target="MicS51efgdV4Yqa2tdts-15" edge="1">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lsQyMnqyiSCvds43gTbh-9" target="lsQyMnqyiSCvds43gTbh-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MicS51efgdV4Yqa2tdts-8" value="삭제할 연락처의 이름을 입력(scanf)&lt;br&gt;DeleteName에 저장" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
-          <mxGeometry x="175.25" y="240" width="280.5" height="80" as="geometry" />
+        <mxCell id="lsQyMnqyiSCvds43gTbh-9" value="i&amp;lt;Person_Info 배열길이" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="217" y="-510" width="302" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="MicS51efgdV4Yqa2tdts-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MicS51efgdV4Yqa2tdts-10" target="MicS51efgdV4Yqa2tdts-16" edge="1">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-10" value="Person_Info 클래스 생성&lt;br&gt;클래스 내의 속성&lt;br&gt;(int PH, String Name)" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="751" y="-610" width="224" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lsQyMnqyiSCvds43gTbh-11" value="return;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="303" y="130" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lsQyMnqyiSCvds43gTbh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="1" source="lsQyMnqyiSCvds43gTbh-13" target="lsQyMnqyiSCvds43gTbh-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MicS51efgdV4Yqa2tdts-10" value="삭제할 i번째 배열을 시작으로&lt;br&gt;배열 한 칸씩 앞으로 당기기&lt;br&gt;반복문 이용,(배열의 끝번까지)&lt;br&gt;ex) People[i] = People[i+1], i++" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="205" y="520" width="221" height="90" as="geometry" />
+        <mxCell id="lsQyMnqyiSCvds43gTbh-13" value="&quot;삭제되었습니다.&quot; 출력" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="278" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MicS51efgdV4Yqa2tdts-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="MicS51efgdV4Yqa2tdts-12" target="MicS51efgdV4Yqa2tdts-8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="621" y="280" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="lsQyMnqyiSCvds43gTbh-14" value="ArrayList 사용" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="761" y="-480" width="224" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MicS51efgdV4Yqa2tdts-12" value="해당 이름의 연락처는 없습니다.&lt;br&gt;다시 입력해주세요.&lt;br&gt;출력" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="510" y="385" width="221" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="MicS51efgdV4Yqa2tdts-13" value="참" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="MicS51efgdV4Yqa2tdts-15" target="MicS51efgdV4Yqa2tdts-10" edge="1">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lsQyMnqyiSCvds43gTbh-15" target="lsQyMnqyiSCvds43gTbh-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MicS51efgdV4Yqa2tdts-14" value="거짓" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=16;" parent="1" source="MicS51efgdV4Yqa2tdts-15" target="MicS51efgdV4Yqa2tdts-12" edge="1">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-15" value="int i++" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="313" y="-584" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="lsQyMnqyiSCvds43gTbh-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lsQyMnqyiSCvds43gTbh-16" target="lsQyMnqyiSCvds43gTbh-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MicS51efgdV4Yqa2tdts-15" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;People.Name == DeleteName&amp;nbsp;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="195.5" y="340" width="240" height="140" as="geometry" />
+        <mxCell id="lsQyMnqyiSCvds43gTbh-16" value="&lt;span&gt;DeleteName.equals(person_info[i].Name)&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="-330" width="281" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="MicS51efgdV4Yqa2tdts-16" value="Delete 함수 종료/ main 문 복귀" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="205" y="670" width="221" height="50" as="geometry" />
+        <mxCell id="lsQyMnqyiSCvds43gTbh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lsQyMnqyiSCvds43gTbh-17" target="lsQyMnqyiSCvds43gTbh-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lsQyMnqyiSCvds43gTbh-17" value="입력된 정보를 &lt;br&gt;String DeleteName에 저장" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="278" y="-720" width="180" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
