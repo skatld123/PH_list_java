@@ -1,46 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T09:00:58.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="l4olA43BbmEgxCoC5Dfk" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-10T09:08:57.599Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="bBIxXEaFIo9AsvmsG3eF" version="14.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="MIVhKUlmY33OTzhxlFlY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QGJq0PdZ1QkwxRiK3rNf-3" target="MIVhKUlmY33OTzhxlFlY-15" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-3" value="Person_info" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="273.5" y="370" width="146" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="WdhutA0HPDwgAfeHhhjY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MIVhKUlmY33OTzhxlFlY-0" target="WdhutA0HPDwgAfeHhhjY-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="WdhutA0HPDwgAfeHhhjY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MIVhKUlmY33OTzhxlFlY-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="349" y="100" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="MIVhKUlmY33OTzhxlFlY-0" value="Start&lt;br&gt;(Input)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="284" y="10" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WdhutA0HPDwgAfeHhhjY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MIVhKUlmY33OTzhxlFlY-6" target="QGJq0PdZ1QkwxRiK3rNf-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MIVhKUlmY33OTzhxlFlY-6" value="ArrayList&amp;lt;Person_Info&amp;gt; list = new ArrayList[ ];" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="200" y="240" width="293" height="80" as="geometry" />
+        <mxCell id="MIVhKUlmY33OTzhxlFlY-6" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;입력된 정보를&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;Person_Info.Name&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;Person_Info.PH 에 저장&lt;/span&gt;&#xa;&#xa;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="210" y="100" width="293" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MIVhKUlmY33OTzhxlFlY-14" value="return;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="281.5" y="660" width="130" height="60" as="geometry" />
+          <mxGeometry x="284" y="480" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MIVhKUlmY33OTzhxlFlY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MIVhKUlmY33OTzhxlFlY-15" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="346.5" y="650" as="targetPoint" />
+            <mxPoint x="349" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MIVhKUlmY33OTzhxlFlY-15" value="&quot;추가 완료&quot; 출력" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="256.5" y="520" width="180" height="50" as="geometry" />
+          <mxGeometry x="259" y="340" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="WdhutA0HPDwgAfeHhhjY-3" value="클래스 배열을 사용하거나 구조체를 사용하려는데&lt;br&gt;ArrayList (동적메모리할당가능) 을 사용하고싶다&lt;br&gt;클래스 배열을 ArrayList에 적용이 가능한가?&amp;nbsp;&lt;br&gt;&lt;br&gt;-&amp;gt; 가능" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="600" y="270" width="270" height="180" as="geometry" />
+        <mxCell id="WdhutA0HPDwgAfeHhhjY-9" value="addPerson() 사용&lt;br&gt;저장한 내용을 Person에 담아 생성" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="242.25" y="220" width="213.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WdhutA0HPDwgAfeHhhjY-5" value="Person_info 라는 arraylist&lt;br&gt;클라스가 아니면 객체가 안되나?&lt;br&gt;ArrayList.add( ) 를 통하여 추가할 수 있다.&lt;br&gt;.add(item) 을하면 그냥 순차적으로 들어감" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="600" y="40" width="270" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="WdhutA0HPDwgAfeHhhjY-6" value="입력된 정보를 &lt;br&gt;Person_Info.Name&amp;nbsp;&lt;br&gt;Person_Info.PH 에 저장" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="256" y="100" width="186" height="70" as="geometry" />
+        <mxCell id="WdhutA0HPDwgAfeHhhjY-10" value="addPerson 은 doublyLinkedlist 에서 head 부분에 추가하는 방식을 사용" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="190" width="200" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
