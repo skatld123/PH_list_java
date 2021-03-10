@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T08:43:49.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="sZa4wLt8IlHQ7t7Pzv8U" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-10T08:44:19.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="85xi1S8Kj5YtRYzURR16" version="14.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="4094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -168,7 +168,7 @@
         <mxCell id="EXY-av2qqtMAw8QjB_ll-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;기능을 수행할 &lt;br&gt;사람의 이름, 정보 입력&lt;/font&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="870.1" y="-2570" width="210" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="EXY-av2qqtMAw8QjB_ll-2" value="DoublyLinkedList 클래스 생성" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="EXY-av2qqtMAw8QjB_ll-2" value="DoublyLinkedList 클래스 생성&lt;br&gt;(내부에 Person클래스 생성)" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="863.1" y="-2890" width="224" height="110" as="geometry" />
         </mxCell>
       </root>
