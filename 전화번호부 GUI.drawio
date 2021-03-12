@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T08:03:46.531Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="EAsz3pExMjv54JRRVyZt" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T09:04:36.671Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="QQteW3RHxQl9lxNlbOBb" version="14.4.4" type="github">
   <diagram id="EfojbiY99QNXChPEN2Wb" name="페이지-1">
-    <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,10 +13,10 @@
         <mxCell id="UplPQR8TjaRG6dBPHjRI-6" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;이름 : 남승호&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;번호 : 010 6306 6529&lt;/span&gt;&#xa;&#xa;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="640" y="320" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="UplPQR8TjaRG6dBPHjRI-7" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="UplPQR8TjaRG6dBPHjRI-7" value="123465" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="630" y="270" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UplPQR8TjaRG6dBPHjRI-8" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="UplPQR8TjaRG6dBPHjRI-8" value="skatmdgh" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="630" y="190" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UplPQR8TjaRG6dBPHjRI-9" value="이름" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -44,7 +44,7 @@
           <mxGeometry x="360" y="555" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UplPQR8TjaRG6dBPHjRI-19" value="변경" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="470" y="405" width="70" height="30" as="geometry" />
+          <mxGeometry x="480" y="405" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
