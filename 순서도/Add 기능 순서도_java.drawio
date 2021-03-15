@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-15T09:48:04.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="NVnx0wl28vTJ3ZDjJBg7" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-15T10:25:31.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="EQe7PzBkVWYad7KQVbkI" version="14.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3761" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -9,7 +9,7 @@
             <mxPoint x="349" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MIVhKUlmY33OTzhxlFlY-0" value="&lt;span style=&quot;text-align: left&quot;&gt;Add( ) : void&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="MIVhKUlmY33OTzhxlFlY-0" value="&lt;span style=&quot;text-align: left&quot;&gt;void&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;Add( )&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="242.25" y="10" width="206" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MIVhKUlmY33OTzhxlFlY-14" value="return;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -26,10 +26,16 @@
         <mxCell id="3ypU410p7wPXYqtJwQ9o-0" value="Person 은 클래스&lt;br&gt;person은 레퍼런스 변수, 실제 객체가 위치할 주소를 담을 통" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="850" y="330" width="330" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3ypU410p7wPXYqtJwQ9o-3" target="MIVhKUlmY33OTzhxlFlY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3ypU410p7wPXYqtJwQ9o-3" value="&lt;p style=&quot;line-height: 140%&quot;&gt;&lt;span&gt;v.add(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;addPerson&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="246.98000000000002" y="530" width="196.53" height="55" as="geometry" />
         </mxCell>
         <mxCell id="3ypU410p7wPXYqtJwQ9o-13" value="거짓" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3ypU410p7wPXYqtJwQ9o-4" target="3ypU410p7wPXYqtJwQ9o-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-25" value="참" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3ypU410p7wPXYqtJwQ9o-4" target="3ypU410p7wPXYqtJwQ9o-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3ypU410p7wPXYqtJwQ9o-4" value="((NameText == null) || (PHText == null))" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -55,11 +61,17 @@
         <mxCell id="3ypU410p7wPXYqtJwQ9o-12" value="JTextField - 한줄의 문자열을 입력받는 창&lt;br&gt;JTextArea - 여러 줄의 문자열을 입력받을 수 있는 창" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="870" y="120" width="400" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3ypU410p7wPXYqtJwQ9o-17" target="3ypU410p7wPXYqtJwQ9o-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3ypU410p7wPXYqtJwQ9o-17" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;Person addPerson = new Person(name, ph);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="199.39" y="400" width="291.71" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3ypU410p7wPXYqtJwQ9o-21" target="3ypU410p7wPXYqtJwQ9o-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3ypU410p7wPXYqtJwQ9o-21" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;String name =NameText.getText()&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; text-align: left&quot;&gt;&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;String ph =PHText.getText()&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="242.25" y="270" width="223.31" height="80" as="geometry" />
+          <mxGeometry x="238.28" y="290" width="223.31" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3ypU410p7wPXYqtJwQ9o-23" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=14;direction=west;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="182.51999999999998" y="285" width="30" height="50" as="geometry" />
