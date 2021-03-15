@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-15T04:07:56.157Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="v6zpar4VQenfzfgpItPc" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-15T08:55:25.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="TM63IZsLL9StuNFzW7G5" version="14.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="4094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="EXY-av2qqtMAw8QjB_ll-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wueby3FvrGFlJu_bnI4B-2" target="EXY-av2qqtMAw8QjB_ll-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wueby3FvrGFlJu_bnI4B-2" value="Person 클래스 생성-(String PH, String name)&lt;br&gt;&lt;br&gt;JFrame frame = new JFrame(&quot;PhoneBook&quot;);" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="wueby3FvrGFlJu_bnI4B-2" value="Person 클래스 생성-(String PH, String name)&lt;br&gt;&lt;br&gt;Vector&amp;lt;Person&amp;gt; v = new Vector &amp;lt;Person&amp;gt;();" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="801.55" y="-2930" width="347.1" height="110" as="geometry" />
         </mxCell>
         <mxCell id="X3wetsd5ezyVW8M-MeKI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EXY-av2qqtMAw8QjB_ll-1" target="X3wetsd5ezyVW8M-MeKI-5" edge="1">
@@ -153,11 +153,11 @@
         <mxCell id="X3wetsd5ezyVW8M-MeKI-5" value="버튼 선택" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="903.96" y="-2410" width="144" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="EXY-av2qqtMAw8QjB_ll-1" value="&lt;span style=&quot;font-size: 14px&quot;&gt;NameText 에 이름 입력&lt;br&gt;PHText 에 번호 입력&lt;br&gt;&lt;/span&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="EXY-av2qqtMAw8QjB_ll-1" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;NameText 에 이름 입력&lt;br style=&quot;font-size: 12px;&quot;&gt;PHText 에 번호 입력&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="870.1" y="-2570" width="210" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="EXY-av2qqtMAw8QjB_ll-2" value="Vector&amp;lt;Person&amp;gt; v = new Vector &amp;lt;Person&amp;gt;();&lt;br&gt;이름입력칸 - JTextField NameText = new JTextField();&lt;br&gt;번호입력칸 -JTextField PHText = new JTextField();" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="817.4" y="-2770" width="314.41" height="140" as="geometry" />
+        <mxCell id="EXY-av2qqtMAw8QjB_ll-2" value="JFrame frame = new JFrame(&quot;PhoneBook&quot;);&lt;br&gt;이름입력칸 - JTextField nameText = new JTextField();&lt;br&gt;번호입력칸 -JTextField phText = new JTextField();&lt;br&gt;TextArea textArea = new TextArea(&quot;출력화면&quot;);" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="817.4" y="-2790" width="314.41" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
