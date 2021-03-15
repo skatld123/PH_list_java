@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-15T03:56:27.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="aY9vGAS_JSQzczMvt6Qu" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-15T04:22:06.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="7OYmrnFcU41m32hHC9M1" version="14.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3761" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -9,14 +9,8 @@
             <mxPoint x="349" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MIVhKUlmY33OTzhxlFlY-0" value="&lt;span style=&quot;text-align: left&quot;&gt;Add(Person person)&amp;nbsp;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="MIVhKUlmY33OTzhxlFlY-0" value="&lt;span style=&quot;text-align: left&quot;&gt;Add( )&amp;nbsp;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="242.25" y="10" width="206" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3ypU410p7wPXYqtJwQ9o-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MIVhKUlmY33OTzhxlFlY-6" target="3ypU410p7wPXYqtJwQ9o-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MIVhKUlmY33OTzhxlFlY-6" value="Person person = new Person();" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="202.5" y="110" width="293" height="90" as="geometry" />
         </mxCell>
         <mxCell id="MIVhKUlmY33OTzhxlFlY-14" value="return;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="284" y="700" width="130" height="60" as="geometry" />
@@ -37,17 +31,17 @@
         <mxCell id="3ypU410p7wPXYqtJwQ9o-0" value="Person 은 클래스&lt;br&gt;person은 레퍼런스 변수, 실제 객체가 위치할 주소를 담을 통" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-127.5" y="90" width="330" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="3ypU410p7wPXYqtJwQ9o-3" value="&lt;p style=&quot;line-height: 140%&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;setPerson(&lt;/span&gt;NameText.getText()&lt;span style=&quot;text-align: left&quot;&gt;,&amp;nbsp;&lt;/span&gt;PHText.getText());&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-3" value="&lt;p style=&quot;line-height: 140%&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;setPerson(&lt;/span&gt;NameText.getText()&lt;span style=&quot;text-align: left&quot;&gt;,&amp;nbsp;&lt;/span&gt;PHText.getText());&lt;/p&gt;&lt;p style=&quot;line-height: 140%&quot;&gt;v.add(person);&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="196.94" y="430" width="306" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="3ypU410p7wPXYqtJwQ9o-7" value="참" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3ypU410p7wPXYqtJwQ9o-4" target="3ypU410p7wPXYqtJwQ9o-3">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3ypU410p7wPXYqtJwQ9o-13" value="거짓" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3ypU410p7wPXYqtJwQ9o-4" target="3ypU410p7wPXYqtJwQ9o-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-19" value="참" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3ypU410p7wPXYqtJwQ9o-4" target="3ypU410p7wPXYqtJwQ9o-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3ypU410p7wPXYqtJwQ9o-4" value="((NameText == null) || (PHText == null))" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="225.75" y="230" width="246.5" height="150" as="geometry" />
+          <mxGeometry x="226.69" y="100" width="246.5" height="150" as="geometry" />
         </mxCell>
         <mxCell id="3ypU410p7wPXYqtJwQ9o-5" value="getText()를 사용하여 입력 내용 불러오기" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-45" y="370" width="220" height="90" as="geometry" />
@@ -64,10 +58,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3ypU410p7wPXYqtJwQ9o-11" value="&quot;입력된 정보가 없습니다.&quot; 출력" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="550" y="280" width="180" height="50" as="geometry" />
+          <mxGeometry x="560" y="150" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3ypU410p7wPXYqtJwQ9o-12" value="JTextField - 한줄의 문자열을 입력받는 창&lt;br&gt;JTextArea - 여러 줄의 문자열을 입력받을 수 있는 창" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="480" y="100" width="400" height="100" as="geometry" />
+          <mxGeometry x="680" y="210" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-15" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Add(NameText.getText()&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; text-align: left&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;PHText.getText()) 가 가능한지&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="495.5" y="10" width="344.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3ypU410p7wPXYqtJwQ9o-17" target="3ypU410p7wPXYqtJwQ9o-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-17" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;Person person = new Person();&lt;/span&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="237.34" y="300" width="223.31" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
