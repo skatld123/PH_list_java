@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T09:04:28.952Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="YtN_LDEj5OOvK8poRdwK" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-15T03:56:27.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="aY9vGAS_JSQzczMvt6Qu" version="14.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="3761" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -12,40 +12,62 @@
         <mxCell id="MIVhKUlmY33OTzhxlFlY-0" value="&lt;span style=&quot;text-align: left&quot;&gt;Add(Person person)&amp;nbsp;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="242.25" y="10" width="206" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MIVhKUlmY33OTzhxlFlY-6" value="Person person = new Person();&lt;br&gt;JTextField NameText = new JTextField();&lt;br&gt;JTextField PHText = new JTextField();&lt;br&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="202.5" y="100" width="293" height="90" as="geometry" />
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MIVhKUlmY33OTzhxlFlY-6" target="3ypU410p7wPXYqtJwQ9o-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MIVhKUlmY33OTzhxlFlY-6" value="Person person = new Person();" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="202.5" y="110" width="293" height="90" as="geometry" />
         </mxCell>
         <mxCell id="MIVhKUlmY33OTzhxlFlY-14" value="return;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="279.31" y="860" width="130" height="60" as="geometry" />
+          <mxGeometry x="284" y="700" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MIVhKUlmY33OTzhxlFlY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MIVhKUlmY33OTzhxlFlY-15" edge="1" target="MIVhKUlmY33OTzhxlFlY-14">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="365.94" y="840" as="targetPoint" />
+            <mxPoint x="365" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MIVhKUlmY33OTzhxlFlY-15" value="&quot;추가 완료&quot; 출력" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="254.31" y="750" width="180" height="50" as="geometry" />
+          <mxGeometry x="259" y="590" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="WdhutA0HPDwgAfeHhhjY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WdhutA0HPDwgAfeHhhjY-9" target="MIVhKUlmY33OTzhxlFlY-15" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WdhutA0HPDwgAfeHhhjY-9" value="person.Name = NameLabel.setText(NameText.getText());" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="168.37" y="600" width="351.88" height="90" as="geometry" />
+        <mxCell id="WdhutA0HPDwgAfeHhhjY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="MIVhKUlmY33OTzhxlFlY-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="349.06" y="530" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3ypU410p7wPXYqtJwQ9o-0" value="Person 은 클래스&lt;br&gt;person은 레퍼런스 변수, 실제 객체가 위치할 주소를 담을 통" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="560" y="110" width="330" height="110" as="geometry" />
+          <mxGeometry x="-127.5" y="90" width="330" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="3ypU410p7wPXYqtJwQ9o-1" value="버튼을 클릭했을 때 ActionEvent 에서&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="701" y="220" width="210" height="90" as="geometry" />
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-3" value="&lt;p style=&quot;line-height: 140%&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;setPerson(&lt;/span&gt;NameText.getText()&lt;span style=&quot;text-align: left&quot;&gt;,&amp;nbsp;&lt;/span&gt;PHText.getText());&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="196.94" y="430" width="306" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="3ypU410p7wPXYqtJwQ9o-3" value="&lt;p style=&quot;line-height: 140%&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;setPerson(String Name, String PH) : void 을 호출하여&lt;br&gt;Person의 Name 은&amp;nbsp;&lt;/span&gt;setText(NameText.getText())&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;Person의 PH(번호) 는 &lt;/span&gt;setText(PHText.getText())&amp;nbsp;&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;로 넣어준다&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="170.25" y="420" width="350" height="150" as="geometry" />
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-7" value="참" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3ypU410p7wPXYqtJwQ9o-4" target="3ypU410p7wPXYqtJwQ9o-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3ypU410p7wPXYqtJwQ9o-4" value="&quot;추가&quot; 버튼을 눌렀을 때" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="263.5" y="240" width="171" height="150" as="geometry" />
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-13" value="거짓" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3ypU410p7wPXYqtJwQ9o-4" target="3ypU410p7wPXYqtJwQ9o-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-4" value="((NameText == null) || (PHText == null))" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="225.75" y="230" width="246.5" height="150" as="geometry" />
         </mxCell>
         <mxCell id="3ypU410p7wPXYqtJwQ9o-5" value="getText()를 사용하여 입력 내용 불러오기" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="600" y="290" width="220" height="90" as="geometry" />
+          <mxGeometry x="-45" y="370" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-10" value="&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; text-align: left&quot;&gt;setPerson(String Name, String PH) 으로&lt;br&gt;Person의 Name 은&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;NameText 에 입력된 이름&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; text-align: left&quot;&gt;Person의 PH(번호) 는&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;PHText 에 입력된 번호&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; text-align: left&quot;&gt;을 넣어준다&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-80" y="390" width="290" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3ypU410p7wPXYqtJwQ9o-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-11" value="&quot;입력된 정보가 없습니다.&quot; 출력" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="280" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3ypU410p7wPXYqtJwQ9o-12" value="JTextField - 한줄의 문자열을 입력받는 창&lt;br&gt;JTextArea - 여러 줄의 문자열을 입력받을 수 있는 창" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="100" width="400" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
