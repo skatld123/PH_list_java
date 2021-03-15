@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T09:04:40.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="XXBiafdevD5NenjtIbZH" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-15T09:07:59.438Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="7-uz8PcABoRpRhStWFyL" version="14.4.4" type="github">
   <diagram id="snMSLyNpEliFtqH8T0_m" name="페이지-1">
-    <mxGraphModel dx="1673" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,8 +13,8 @@
         <mxCell id="lsQyMnqyiSCvds43gTbh-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lsQyMnqyiSCvds43gTbh-4" target="lsQyMnqyiSCvds43gTbh-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-4" value="Start&lt;br&gt;(Delete)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="303" y="-820" width="130" height="60" as="geometry" />
+        <mxCell id="lsQyMnqyiSCvds43gTbh-4" value="&lt;span style=&quot;text-align: left&quot;&gt;Delete(Person person): void&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-830" width="177" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lsQyMnqyiSCvds43gTbh-26" value="참" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="lsQyMnqyiSCvds43gTbh-9" target="lsQyMnqyiSCvds43gTbh-16">
           <mxGeometry relative="1" as="geometry" />
@@ -61,6 +61,9 @@
         </mxCell>
         <mxCell id="lsQyMnqyiSCvds43gTbh-32" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;단점 중복되는 동명이인이 있을경우 앞배열에 있는 한명만 삭제된다&lt;/span&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="570" y="-570" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lsQyMnqyiSCvds43gTbh-33" value="이름검색만 해도 삭제됨&lt;br&gt;번호검색 X" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-830" width="171.5" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
