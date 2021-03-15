@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-15T04:53:52.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="6UR6k8QWDi-qsRheHVMb" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-15T04:54:31.052Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="MS7_Ym7s6feR4eYzNuML" version="14.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="8ZOwr5buo_LH_EpZrVhO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8ZOwr5buo_LH_EpZrVhO-1" target="8ZOwr5buo_LH_EpZrVhO-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8ZOwr5buo_LH_EpZrVhO-1" value="&amp;nbsp;i 번째 인덱스에 있는 사람의 정보를 출력" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="8ZOwr5buo_LH_EpZrVhO-1" value="v.get(i) 를 이용하여&lt;br&gt;&amp;nbsp;i 번째 인덱스에 있는 사람의 정보를 출력" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="364.75" y="420" width="230.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="8ZOwr5buo_LH_EpZrVhO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8ZOwr5buo_LH_EpZrVhO-6" target="8ZOwr5buo_LH_EpZrVhO-14">
@@ -59,9 +59,6 @@
         </mxCell>
         <mxCell id="8ZOwr5buo_LH_EpZrVhO-17" value="i++" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="435" y="580" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="8ZOwr5buo_LH_EpZrVhO-21" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Person person = new Person();&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="110" y="100" width="221" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
