@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T01:12:04.944Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="ZUxrO0FSACH-C9ISNBjZ" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-18T01:35:50.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="KQauR7-Om2hHEMk6uE4k" version="14.4.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="4094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -155,8 +155,8 @@
         <mxCell id="EXY-av2qqtMAw8QjB_ll-2" value="JFrame frame = new JFrame(&quot;PhoneBook&quot;);&lt;br&gt;이름입력칸 - JTextField nameText = new JTextField();&lt;br&gt;번호입력칸 -JTextField phText = new JTextField();&lt;br&gt;TextArea textArea = new TextArea(&quot;출력화면&quot;);" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="817.4" y="-2790" width="314.41" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="A4JqITvwXXjRAWf6DDYK-0" value="&lt;span style=&quot;font-size: 12px&quot;&gt;input(nameBox.getText(), phoneBox.getText());&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="820" y="-2420" width="332.55" height="70" as="geometry" />
+        <mxCell id="A4JqITvwXXjRAWf6DDYK-0" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Person inputPerson = new Person();&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;inputPerson&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;=input(nameBox.getText(), phoneBox.getText());&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="800" y="-2420" width="370" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
