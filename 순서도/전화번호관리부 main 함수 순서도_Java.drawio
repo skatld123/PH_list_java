@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T08:03:05.099Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="jCii0YFLkcuPy5-WdOTh" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-18T09:02:46.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="VOgjeernUpZ8hnmPb70z" version="14.4.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2015" dy="4628" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1169" dy="4204" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -13,7 +13,7 @@
         <mxCell id="A4JqITvwXXjRAWf6DDYK-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wueby3FvrGFlJu_bnI4B-2" target="EXY-av2qqtMAw8QjB_ll-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wueby3FvrGFlJu_bnI4B-2" value="Person 클래스 생성-(String PH, String name)&lt;br style=&quot;font-size: 14px;&quot;&gt;Vector&amp;lt;Person&amp;gt; v = new Vector &amp;lt;Person&amp;gt;();&lt;br style=&quot;font-size: 14px;&quot;&gt;int errorStatus = 0;&lt;br style=&quot;font-size: 14px;&quot;&gt;GUI 구성" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.16828003457216897;labelPosition=center;align=center;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="wueby3FvrGFlJu_bnI4B-2" value="Vector&amp;lt;Person&amp;gt; v = new Vector &amp;lt;Person&amp;gt;();&lt;br style=&quot;font-size: 14px&quot;&gt;int errorStatus = 0;&lt;br style=&quot;font-size: 14px&quot;&gt;GUI 구성" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.16828003457216897;labelPosition=center;align=center;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="345.5899999999999" y="-3192" width="347.1" height="110" as="geometry" />
         </mxCell>
         <mxCell id="XJGy-mcHVmc3LLUE-I2_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XJGy-mcHVmc3LLUE-I2_-5" edge="1">
