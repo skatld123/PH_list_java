@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T04:22:03.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="16MsLGjWRLf9UjQAR_RJ" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-18T04:49:22.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="FuvrgnvDxRKXBDceNwtG" version="14.4.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="4094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -149,7 +149,10 @@
         <mxCell id="X3wetsd5ezyVW8M-MeKI-5" value="버튼 선택" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="902.61" y="-2120" width="144" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="EXY-av2qqtMAw8QjB_ll-1" value="&lt;span style=&quot;font-size: 12px&quot;&gt;nameBox 에 이름 입력&lt;br style=&quot;font-size: 12px&quot;&gt;phoneBox 에 번호 입력&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;/span&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;fontSize=12;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="A4JqITvwXXjRAWf6DDYK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EXY-av2qqtMAw8QjB_ll-1" target="A4JqITvwXXjRAWf6DDYK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EXY-av2qqtMAw8QjB_ll-1" value="&lt;span style=&quot;font-size: 12px&quot;&gt;nameBox 에 이름 입력&lt;br style=&quot;font-size: 12px&quot;&gt;phoneBox 에 번호 입력&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;/span&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=0;fontSize=12;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="870.1" y="-2570" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="EXY-av2qqtMAw8QjB_ll-2" value="JFrame frame = new JFrame(&quot;PhoneBook&quot;);&lt;br&gt;이름입력칸 - JTextField nameText = new JTextField();&lt;br&gt;번호입력칸 -JTextField phText = new JTextField();&lt;br&gt;TextArea textArea = new TextArea(&quot;출력화면&quot;);" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -176,7 +179,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="A4JqITvwXXjRAWf6DDYK-5" value="입력 버튼 클릭" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="908.0500000000001" y="-2430" width="136.9" height="100" as="geometry" />
+          <mxGeometry x="906.1600000000001" y="-2430" width="136.9" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
