@@ -1,25 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-03-15T09:07:59.438Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="7-uz8PcABoRpRhStWFyL" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-18T02:49:22.661Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="n620d623gPvwdhWf77f-" version="14.4.8" type="github">
   <diagram id="snMSLyNpEliFtqH8T0_m" name="페이지-1">
     <mxGraphModel dx="1422" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lsQyMnqyiSCvds43gTbh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="lsQyMnqyiSCvds43gTbh-3" target="lsQyMnqyiSCvds43gTbh-13">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" parent="1" source="lsQyMnqyiSCvds43gTbh-3" target="lsQyMnqyiSCvds43gTbh-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-3" value="remove() 함수 사용하여 &lt;br&gt;i 번째 배열 삭제" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;" vertex="1" parent="1">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-3" value="remove() 함수 사용하여 &lt;br&gt;i 번째 배열 삭제" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;align=center;" parent="1" vertex="1">
           <mxGeometry x="295" y="-130" width="146" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lsQyMnqyiSCvds43gTbh-4" target="lsQyMnqyiSCvds43gTbh-17">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lsQyMnqyiSCvds43gTbh-4" target="lsQyMnqyiSCvds43gTbh-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-4" value="&lt;span style=&quot;text-align: left&quot;&gt;Delete(Person person): void&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-4" value="&lt;span style=&quot;text-align: left&quot;&gt;void delete(Person person)&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="280" y="-830" width="177" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-26" value="참" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="lsQyMnqyiSCvds43gTbh-9" target="lsQyMnqyiSCvds43gTbh-16">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-26" value="참" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" parent="1" source="lsQyMnqyiSCvds43gTbh-9" target="lsQyMnqyiSCvds43gTbh-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-31" value="거짓" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;" edge="1" parent="1" source="lsQyMnqyiSCvds43gTbh-9">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-31" value="거짓" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;" parent="1" source="lsQyMnqyiSCvds43gTbh-9" edge="1">
           <mxGeometry x="-0.9342" relative="1" as="geometry">
             <mxPoint x="370" y="80" as="targetPoint" />
             <Array as="points">
@@ -29,40 +29,40 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-9" value="i&amp;lt;Person_Info 배열길이" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-9" value="i&amp;lt;Person_Info 배열길이" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="279" y="-515" width="179" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-11" value="return;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-11" value="return;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="303" y="130" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="1" source="lsQyMnqyiSCvds43gTbh-13" target="lsQyMnqyiSCvds43gTbh-11">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" parent="1" source="lsQyMnqyiSCvds43gTbh-13" target="lsQyMnqyiSCvds43gTbh-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-13" value="&quot;삭제되었습니다.&quot; 출력" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-13" value="&quot;삭제되었습니다.&quot; 출력" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="278" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lsQyMnqyiSCvds43gTbh-15" target="lsQyMnqyiSCvds43gTbh-9">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lsQyMnqyiSCvds43gTbh-15" target="lsQyMnqyiSCvds43gTbh-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-15" value="int i++" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-15" value="int i++" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="313" y="-584" width="110" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-22" value="참" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="lsQyMnqyiSCvds43gTbh-16" target="lsQyMnqyiSCvds43gTbh-3">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-22" value="참" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="lsQyMnqyiSCvds43gTbh-16" target="lsQyMnqyiSCvds43gTbh-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-16" value="&lt;span&gt;DeleteName.equals(person_info[i].Name)&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-16" value="&lt;span&gt;DeleteName.equals(person_info[i].Name)&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="227.5" y="-320" width="281" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lsQyMnqyiSCvds43gTbh-17" target="lsQyMnqyiSCvds43gTbh-15">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lsQyMnqyiSCvds43gTbh-17" target="lsQyMnqyiSCvds43gTbh-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-17" value="입력된 정보를 &lt;br&gt;String DeleteName에 저장" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-17" value="입력된 정보를 &lt;br&gt;String DeleteName에 저장" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="278" y="-720" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-32" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;단점 중복되는 동명이인이 있을경우 앞배열에 있는 한명만 삭제된다&lt;/span&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-32" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;단점 중복되는 동명이인이 있을경우 앞배열에 있는 한명만 삭제된다&lt;/span&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="570" y="-570" width="190" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="lsQyMnqyiSCvds43gTbh-33" value="이름검색만 해도 삭제됨&lt;br&gt;번호검색 X" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="lsQyMnqyiSCvds43gTbh-33" value="이름검색만 해도 삭제됨&lt;br&gt;번호검색 X" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="500" y="-830" width="171.5" height="70" as="geometry" />
         </mxCell>
       </root>
