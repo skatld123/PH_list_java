@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T01:32:11.840Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="9p20BDZwToucHSVJftTl" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-18T01:36:23.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="O1u7xksLiwDWoyGTKzxh" version="14.4.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,17 +24,17 @@
         <mxCell id="P8jeqRXpjA01nZ9afECX-22" value="+add(Person addPerson) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
           <mxGeometry y="124" width="260" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="P8jeqRXpjA01nZ9afECX-24" value="+sort(Person arrPerson) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
+          <mxGeometry y="150" width="260" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="P8jeqRXpjA01nZ9afECX-23" value="+Search(Person searchPerson): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
-          <mxGeometry y="150" width="260" height="24" as="geometry" />
+          <mxGeometry y="176" width="260" height="24" as="geometry" />
         </mxCell>
         <mxCell id="AGnKkswIksJs2r1xKDmr-0" value="" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=-0.006;entryY=0.192;entryDx=0;entryDy=0;entryPerimeter=0;" parent="P8jeqRXpjA01nZ9afECX-0" target="P8jeqRXpjA01nZ9afECX-24" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-80" y="127" as="sourcePoint" />
             <mxPoint x="80" y="130" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="P8jeqRXpjA01nZ9afECX-24" value="+Arrange(Person arrPerson) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
-          <mxGeometry y="174" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="P8jeqRXpjA01nZ9afECX-25" value="+Edit(String nameText.getText()): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
           <mxGeometry y="200" width="260" height="26" as="geometry" />
