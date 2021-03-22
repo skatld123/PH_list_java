@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T08:26:48.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="5EEDEryuXcqAyTja3cmz" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-22T08:28:24.531Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="6Q6L58ulE9ULEqT7cFyM" version="14.4.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="994" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,7 +9,7 @@
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P8jeqRXpjA01nZ9afECX-1" value="-v : Vector&lt;Person&gt;&#xa;+display : Display&#xa;+errorStatus : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
+        <mxCell id="P8jeqRXpjA01nZ9afECX-1" value="-v : Vector&lt;Person&gt;       &#xa;+display : Display&#xa;+errorStatus : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
           <mxGeometry y="26" width="390" height="66" as="geometry" />
         </mxCell>
         <mxCell id="P8jeqRXpjA01nZ9afECX-2" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
@@ -76,6 +76,12 @@
             <mxPoint x="190" y="227" as="sourcePoint" />
             <mxPoint x="350" y="230" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="f7E5iX_CI0--iNyVOqC2-8" value="&amp;lt;Person&amp;gt; 을 Vector로 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="34" width="204" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="f7E5iX_CI0--iNyVOqC2-9" value="errorStatus = 0 정상&amp;nbsp;&lt;br&gt;=1 비정상" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="564" y="30" width="204" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
