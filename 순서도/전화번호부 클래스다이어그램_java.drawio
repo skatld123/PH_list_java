@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T08:28:24.531Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="6Q6L58ulE9ULEqT7cFyM" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-23T08:11:06.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="sbj89ZrLdXNs3-KKKOmr" version="14.4.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="994" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,7 +18,7 @@
         <mxCell id="f7E5iX_CI0--iNyVOqC2-0" value="+input(String name, String phone) : Person" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="P8jeqRXpjA01nZ9afECX-0">
           <mxGeometry y="112" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="f7E5iX_CI0--iNyVOqC2-1" value="+output(Person person) : void " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="P8jeqRXpjA01nZ9afECX-0">
+        <mxCell id="f7E5iX_CI0--iNyVOqC2-1" value="+output(Person person) : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="P8jeqRXpjA01nZ9afECX-0">
           <mxGeometry y="138" width="390" height="26" as="geometry" />
         </mxCell>
         <mxCell id="P8jeqRXpjA01nZ9afECX-22" value="+add(Person person) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
