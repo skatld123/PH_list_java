@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T06:15:47.768Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="4It-M8_DIXxOmXlblB_T" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-25T06:16:28.246Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="ez062VNr9JLHEqbWL2sz" version="14.4.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1182" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,10 +10,12 @@
         <mxCell id="ac_e3WC1N_kmgUFjbhyI-0" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 14px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;String output(Person person)&amp;nbsp;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="285.5" y="56" width="219" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="lGCm93BMd27VdJGXeWkH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ac_e3WC1N_kmgUFjbhyI-5" target="lGCm93BMd27VdJGXeWkH-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="lGCm93BMd27VdJGXeWkH-7" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ac_e3WC1N_kmgUFjbhyI-5" target="lGCm93BMd27VdJGXeWkH-6">
+          <mxGeometry x="-0.6588" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="lGCm93BMd27VdJGXeWkH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ac_e3WC1N_kmgUFjbhyI-5" target="lGCm93BMd27VdJGXeWkH-4">
+        <mxCell id="lGCm93BMd27VdJGXeWkH-8" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ac_e3WC1N_kmgUFjbhyI-5" target="lGCm93BMd27VdJGXeWkH-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ac_e3WC1N_kmgUFjbhyI-5" value="errorStatus = 0;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -50,6 +52,9 @@
         </mxCell>
         <mxCell id="lGCm93BMd27VdJGXeWkH-12" value="void 에서 문자열로 반환으로 변환" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="108" y="66" width="135" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="lGCm93BMd27VdJGXeWkH-14" value="에러가 날 경우" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="276" width="135" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
