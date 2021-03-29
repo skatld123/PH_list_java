@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T03:53:57.608Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="ONf79iWzy1JZiT5Js9Ty" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T04:05:41.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="Xafkey_87yqLP5UVeata" version="14.4.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="993" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,26 +15,23 @@
         <mxCell id="P8jeqRXpjA01nZ9afECX-2" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
           <mxGeometry y="92" width="390" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="f7E5iX_CI0--iNyVOqC2-0" value="+input(String name, String phone) : Person" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="P8jeqRXpjA01nZ9afECX-0">
+        <mxCell id="f7E5iX_CI0--iNyVOqC2-0" value="+input(String name, String phone) : Person //입력(이름,번호 -&gt; 사람)&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="P8jeqRXpjA01nZ9afECX-0">
           <mxGeometry y="112" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="f7E5iX_CI0--iNyVOqC2-1" value="+output(Person person) : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="P8jeqRXpjA01nZ9afECX-0">
+        <mxCell id="f7E5iX_CI0--iNyVOqC2-1" value="+output(Person person) : String //문자열반환 출력" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="P8jeqRXpjA01nZ9afECX-0">
           <mxGeometry y="138" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P8jeqRXpjA01nZ9afECX-22" value="+add(Person person) : Person" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
+        <mxCell id="P8jeqRXpjA01nZ9afECX-22" value="+add(Person person) : Person //사람정보 벡터에 추가기" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
           <mxGeometry y="164" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P8jeqRXpjA01nZ9afECX-23" value="+search(Person person) : Person" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
+        <mxCell id="P8jeqRXpjA01nZ9afECX-23" value="+search(Person person) : Person &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
           <mxGeometry y="190" width="390" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="P8jeqRXpjA01nZ9afECX-24" value="+sort( ) : void //아직 수정 전" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
+        <mxCell id="P8jeqRXpjA01nZ9afECX-25" value="+modify(Person person): Person " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
           <mxGeometry y="214" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P8jeqRXpjA01nZ9afECX-25" value="+modify(Person person): Person " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
+        <mxCell id="P8jeqRXpjA01nZ9afECX-26" value="+delete(Person person): Person //삭제기능" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
           <mxGeometry y="240" width="390" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="P8jeqRXpjA01nZ9afECX-26" value="+delete(Person person): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
-          <mxGeometry y="266" width="390" height="26" as="geometry" />
         </mxCell>
         <mxCell id="P8jeqRXpjA01nZ9afECX-10" value="Person" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="386" y="611" width="310" height="179" as="geometry">
@@ -56,7 +53,7 @@
         <mxCell id="te0iCXtoX0ai0mT4FdgT-9" value="Display extends JFrame" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="32" y="258" width="258" height="483" as="geometry" />
         </mxCell>
-        <mxCell id="te0iCXtoX0ai0mT4FdgT-10" value="//PhoneBook 사용&#xa;+phoneBook : PhoneBook&#xa;&#xa;//화면 구성 요소&#xa;+frame: JFrame&#xa;+nameBox: JTextField&#xa;+phoneBox: JTextField&#xa;+textArea: JTextArea&#xa;+scroll: JScrollPane&#xa;&#xa;//버튼의 종류&#xa;+addButton : JButton&#xa;+searchButton : JButton&#xa;+sortButton : JButton&#xa;+mButton : JButton&#xa;+checkButton : JButton&#xa;+dButton : JButton&#xa;+exitButton : JButton&#xa;&#xa;//버튼 동작&#xa;+ listener : ActionListener" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacing=2;spacingTop=1;fontSize=14;" parent="te0iCXtoX0ai0mT4FdgT-9" vertex="1">
+        <mxCell id="te0iCXtoX0ai0mT4FdgT-10" value="//PhoneBook 사용&#xa;+phoneBook : PhoneBook&#xa;&#xa;//화면 구성 요소&#xa;+frame: JFrame&#xa;+nameBox: JTextField&#xa;+phoneBox: JTextField&#xa;+textArea: JTextArea&#xa;+scroll: JScrollPane&#xa;&#xa;//버튼의 종류&#xa;+addButton : JButton //추가버튼&#xa;+searchButton : JButton //검색버튼&#xa;+sortButton : JButton //정렬버튼&#xa;+mButton : JButton //변경버튼&#xa;+checkButton : JButton //확인버튼&#xa;+dButton : JButton //삭제버튼&#xa;+exitButton : JButton //종료버튼&#xa;&#xa;//버튼 동작&#xa;+ listener : ActionListener" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacing=2;spacingTop=1;fontSize=14;" parent="te0iCXtoX0ai0mT4FdgT-9" vertex="1">
           <mxGeometry y="26" width="258" height="375" as="geometry" />
         </mxCell>
         <mxCell id="te0iCXtoX0ai0mT4FdgT-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=14;" parent="te0iCXtoX0ai0mT4FdgT-9" vertex="1">
