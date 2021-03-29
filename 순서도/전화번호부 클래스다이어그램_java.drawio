@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T07:18:09.042Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="f7i9pl5GuLj72F0RnbpO" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T03:52:21.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="S3BmeexIBdZT9hqhchXZ" version="14.4.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1182" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="993" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="f7E5iX_CI0--iNyVOqC2-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;strokeWidth=2;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="P8jeqRXpjA01nZ9afECX-0" target="P8jeqRXpjA01nZ9afECX-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="P8jeqRXpjA01nZ9afECX-0" value="PhoneBook" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="357" y="258" width="390" height="296" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
@@ -40,7 +37,7 @@
           <mxGeometry y="266" width="390" height="26" as="geometry" />
         </mxCell>
         <mxCell id="P8jeqRXpjA01nZ9afECX-10" value="Person" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="397" y="608" width="310" height="179" as="geometry">
+          <mxGeometry x="386" y="611" width="310" height="179" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -91,6 +88,12 @@
         </mxCell>
         <mxCell id="f7E5iX_CI0--iNyVOqC2-26" value="Display 가 PhoneBook을 사용" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="224" y="194" width="207" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="f7E5iX_CI0--iNyVOqC2-30" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;strokeWidth=2;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="P8jeqRXpjA01nZ9afECX-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="211" y="487" as="sourcePoint" />
+            <mxPoint x="541" y="558" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
