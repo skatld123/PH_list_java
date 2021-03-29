@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T06:11:52.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="Aqu1KgAWNTVf0WLTRrBl" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T04:18:53.900Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="tF1lv4D_mhvgRLamVnNK" version="14.4.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1420" dy="1089" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1419" dy="1066" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -15,12 +15,6 @@
             <mxPoint x="240.53" y="540" as="sourcePoint" />
             <mxPoint x="240.53" y="590" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="2RrL-T3Rn5QjP8loxGCH-7" value="ex)&lt;br style=&quot;font-size: 17px&quot;&gt;input(nameBox.getText(), phoneBox.getText())" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="497" y="115" width="419" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="2RrL-T3Rn5QjP8loxGCH-8" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rounded=0;fontSize=17;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="467" y="110" width="50" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2RrL-T3Rn5QjP8loxGCH-9" value="return person;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=17;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="121.75" y="723" width="250" height="90" as="geometry" />
@@ -41,7 +35,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2RrL-T3Rn5QjP8loxGCH-16" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;이름과 번호 칸에 아무정도가 없을 경우&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="339.5" y="217" width="305" height="70" as="geometry" />
+          <mxGeometry x="308" y="204" width="305" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2RrL-T3Rn5QjP8loxGCH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2RrL-T3Rn5QjP8loxGCH-17" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -65,12 +59,6 @@
         </mxCell>
         <mxCell id="qAvBD5m_K7OfPmaRqqT3-1" value="errorStatus = 0;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontSize=17;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="163.25" y="450" width="156" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="OtDLsv_hIX7mpTLrGDUf-0" value="" style="endArrow=none;dashed=1;html=1;fontSize=17;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="402.5" y="149.41000000000003" as="sourcePoint" />
-            <mxPoint x="472.5" y="149.41000000000003" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
