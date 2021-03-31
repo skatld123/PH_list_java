@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T04:20:24.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="vq_fC017pOD5fMjpbv81" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-31T07:14:59.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="g_z8EUfF819DFyczAFn1" version="14.4.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1986" dy="1492" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1419" dy="984" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -17,7 +17,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2RrL-T3Rn5QjP8loxGCH-9" value="return person;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=17;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="122.88" y="827" width="250" height="90" as="geometry" />
+          <mxGeometry x="117.38" y="698" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2RrL-T3Rn5QjP8loxGCH-19" value="N(정상)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" source="2RrL-T3Rn5QjP8loxGCH-30">
           <mxGeometry relative="1" as="geometry">
@@ -34,9 +34,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2RrL-T3Rn5QjP8loxGCH-16" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;이름과 번호 칸에 아무정도가 없을 경우&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="309.13" y="308" width="305" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="2RrL-T3Rn5QjP8loxGCH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2RrL-T3Rn5QjP8loxGCH-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="251.13" y="664" as="targetPoint" />
@@ -51,12 +48,6 @@
         <mxCell id="2RrL-T3Rn5QjP8loxGCH-30" value="((name.equals(&quot;&quot;))&amp;amp;&amp;amp;(phone.equals(&quot;&quot;)))" style="rhombus;whiteSpace=wrap;html=1;rounded=0;align=center;fontSize=17;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="94.87" y="356" width="292.75" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="OtDLsv_hIX7mpTLrGDUf-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qAvBD5m_K7OfPmaRqqT3-0" target="2RrL-T3Rn5QjP8loxGCH-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qAvBD5m_K7OfPmaRqqT3-0" value="person.setPerson(name,phone);" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontSize=17;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="121.13" y="694" width="253.5" height="86" as="geometry" />
-        </mxCell>
         <mxCell id="qAvBD5m_K7OfPmaRqqT3-1" value="errorStatus = 0;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontSize=17;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="164.38" y="554" width="156" height="70" as="geometry" />
         </mxCell>
@@ -65,6 +56,24 @@
         </mxCell>
         <mxCell id="OtDLsv_hIX7mpTLrGDUf-6" value="Person person = new Person(name, phone);" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="65.44" y="219" width="351.62" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="OtDLsv_hIX7mpTLrGDUf-9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=17;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OtDLsv_hIX7mpTLrGDUf-10" target="2RrL-T3Rn5QjP8loxGCH-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="477" y="345" as="sourcePoint" />
+            <mxPoint x="257" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtDLsv_hIX7mpTLrGDUf-10" value="이름과 번호 둘다 빈칸일 경우&amp;nbsp;&lt;br&gt;errorStatus = 1 (에러발생) 으로 저장" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="444" y="308" width="37" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="OtDLsv_hIX7mpTLrGDUf-14" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=17;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OtDLsv_hIX7mpTLrGDUf-15" target="2RrL-T3Rn5QjP8loxGCH-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565.0699999999999" y="99" as="sourcePoint" />
+            <mxPoint x="432" y="153" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtDLsv_hIX7mpTLrGDUf-15" value="name 과 phone 문자열을 인자로 받아&amp;nbsp;&lt;br&gt;Person 형태로 반환" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="455.99999999999994" y="99" width="37" height="77" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
