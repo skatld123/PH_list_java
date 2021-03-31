@@ -1,109 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T07:52:05.356Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="LaOELtI7NuXW-uE2SMWt" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-31T07:59:56.899Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="TrrKK6MPxtj3dyu0Rv92" version="14.4.8" type="github">
   <diagram id="1KhmYGELhyACEd7Jnpwi" name="페이지-1">
-    <mxGraphModel dx="2031" dy="1134" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1391" dy="832" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="8Shs_mjXmGKe_kZDb0H--7" target="8Shs_mjXmGKe_kZDb0H--15">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="C4p78MOqMb6mm8a9u9Of-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="1" source="8Shs_mjXmGKe_kZDb0H--7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="402.0588235294117" y="146" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8Shs_mjXmGKe_kZDb0H--7" value="&lt;span style=&quot;text-align: left; font-size: 13px;&quot;&gt;+modify(Person mPerson): void&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="305.76" y="46" width="192.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="8Shs_mjXmGKe_kZDb0H--13" target="C4p78MOqMb6mm8a9u9Of-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8Shs_mjXmGKe_kZDb0H--13" value="i&amp;lt; v.size();" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="299" y="256" width="206" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="8Shs_mjXmGKe_kZDb0H--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" parent="1" source="8Shs_mjXmGKe_kZDb0H--15" target="8Shs_mjXmGKe_kZDb0H--13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8Shs_mjXmGKe_kZDb0H--15" value="&lt;span style=&quot;font-size: 13px&quot;&gt;int i = 0;&lt;/span&gt;&lt;br style=&quot;font-size: 13px&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;name=m&lt;/span&gt;&lt;span style=&quot;font-size: 13px ; text-align: left&quot;&gt;Person&lt;/span&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;.getName();&lt;/span&gt;&lt;br style=&quot;font-size: 13px&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;phone=m&lt;/span&gt;&lt;span style=&quot;font-size: 13px ; text-align: left&quot;&gt;Person&lt;/span&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;.getPhone();&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="302" y="146" width="200" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="8Shs_mjXmGKe_kZDb0H--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" parent="1" source="8Shs_mjXmGKe_kZDb0H--17" target="8Shs_mjXmGKe_kZDb0H--13" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="137" y="321" />
-            </Array>
-            <mxPoint x="299" y="341" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8Shs_mjXmGKe_kZDb0H--17" value="i++" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="92" y="591" width="90" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="8Shs_mjXmGKe_kZDb0H--20" value="[변경] 버튼 클릭" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="71" y="56" width="111" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="C4p78MOqMb6mm8a9u9Of-2" target="C4p78MOqMb6mm8a9u9Of-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-2" value="Person savedPerson= v.get(i);" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="296.87" y="426" width="210.25" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-8" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="C4p78MOqMb6mm8a9u9Of-3" target="C4p78MOqMb6mm8a9u9Of-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-9" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="C4p78MOqMb6mm8a9u9Of-3" target="8Shs_mjXmGKe_kZDb0H--17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-3" value="(savedPerson.getPhone().equals(&lt;span style=&quot;text-align: left; font-size: 13px;&quot;&gt;phone&lt;/span&gt;)&lt;br style=&quot;font-size: 13px;&quot;&gt;||&lt;br style=&quot;font-size: 13px;&quot;&gt;savedPerson.getName().equals(name))" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="239.5" y="526" width="324.99" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="C4p78MOqMb6mm8a9u9Of-4" target="C4p78MOqMb6mm8a9u9Of-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="618" y="766" />
-              <mxPoint x="618" y="78" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-4" value="output(savedPerson);" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="C4p78MOqMb6mm8a9u9Of-4" value="output(savedPerson);" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="286.88" y="736" width="230.25" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="C4p78MOqMb6mm8a9u9Of-5" target="C4p78MOqMb6mm8a9u9Of-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-5" value="&lt;span style=&quot;font-family: helvetica; font-size: 13px;&quot;&gt;textarea.setText(&quot;덮어씌울 정보를 입력 후 확인을 누르세요&quot;);&lt;/span&gt;&lt;span style=&quot;font-family: helvetica; font-size: 13px;&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="833" y="58" width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="C4p78MOqMb6mm8a9u9Of-10" target="C4p78MOqMb6mm8a9u9Of-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-10" value="savedPerson =&amp;nbsp;&lt;span style=&quot;font-size: 13px;&quot;&gt;input(nameBox.getText(), phoneBox.getText());&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="808.01" y="488" width="289.99" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="C4p78MOqMb6mm8a9u9Of-11" target="C4p78MOqMb6mm8a9u9Of-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-11" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;v.set(i,savedPerson);&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="853" y="598" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-16" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="C4p78MOqMb6mm8a9u9Of-12" target="C4p78MOqMb6mm8a9u9Of-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-23" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="C4p78MOqMb6mm8a9u9Of-12">
-          <mxGeometry x="-0.8881" relative="1" as="geometry">
-            <mxPoint x="943" y="158" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="733" y="373" />
-              <mxPoint x="733" y="158" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-12" value="[ 확인 ] 버튼을 눌른 경우" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="821.75" y="308" width="262.48" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-13" value="&lt;div style=&quot;text-align: left; font-size: 13px;&quot;&gt;return;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="866.76" y="698" width="172.5" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="C4p78MOqMb6mm8a9u9Of-22" target="C4p78MOqMb6mm8a9u9Of-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="C4p78MOqMb6mm8a9u9Of-22" value="&lt;span style=&quot;font-size: 12px&quot;&gt;nameBox 에 이름 입력&lt;/span&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;phoneBox 에 번호 입력&lt;/span&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="833.01" y="188" width="239.99" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
