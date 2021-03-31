@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-31T07:59:56.899Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="TrrKK6MPxtj3dyu0Rv92" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-31T08:00:36.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="tpnpZfSj1fhhsq0uyE8l" version="14.4.8" type="github">
   <diagram id="1KhmYGELhyACEd7Jnpwi" name="페이지-1">
     <mxGraphModel dx="1391" dy="832" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -9,8 +9,8 @@
             <mxPoint x="402.0588235294117" y="146" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8Shs_mjXmGKe_kZDb0H--7" value="&lt;span style=&quot;text-align: left; font-size: 13px;&quot;&gt;+modify(Person mPerson): void&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="305.76" y="46" width="192.5" height="70" as="geometry" />
+        <mxCell id="8Shs_mjXmGKe_kZDb0H--7" value="&lt;span style=&quot;text-align: left ; font-size: 13px&quot;&gt;modify(int index, Person person): person&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="258.89" y="44" width="286.24" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8Shs_mjXmGKe_kZDb0H--20" value="[변경] 버튼 클릭" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="71" y="56" width="111" height="60" as="geometry" />
