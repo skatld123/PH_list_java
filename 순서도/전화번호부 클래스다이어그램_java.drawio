@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-05T02:57:12.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="AZL4X6LP6qSQQN9a_q0F" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-05T03:02:46.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="IhGFCHtd_yOAogdAn_TN" version="14.4.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1391" dy="832" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,16 +9,16 @@
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P8jeqRXpjA01nZ9afECX-1" value="+v : Vector&lt;Person&gt;  //Person을 저장할 리스트     &#xa;&#xa;+errorStatus : int //에러 유무 /정상 = 0 / 에러 = 1 /" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
+        <mxCell id="P8jeqRXpjA01nZ9afECX-1" value="+v : Vector&lt;Person&gt;  //Person을 저장할 리스트     &#xa;&#xa;+errorStatus : int //에러 유무 /정상 = 0 / 추가 에러 = 1 / 검색에러 =2 " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
           <mxGeometry y="26" width="509" height="66" as="geometry" />
         </mxCell>
         <mxCell id="P8jeqRXpjA01nZ9afECX-2" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
           <mxGeometry y="92" width="509" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="f7E5iX_CI0--iNyVOqC2-0" value="+input(String name, String phone) : Person //입력(이름,번호 -&gt; 사람)&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="P8jeqRXpjA01nZ9afECX-0">
+        <mxCell id="f7E5iX_CI0--iNyVOqC2-0" value="+input(String name, String phone) : Person //입력 (이름,번호 -&gt; 사람)&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="P8jeqRXpjA01nZ9afECX-0">
           <mxGeometry y="112" width="509" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="f7E5iX_CI0--iNyVOqC2-1" value="+output(Person person) : String //문자열반환 출력" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="P8jeqRXpjA01nZ9afECX-0">
+        <mxCell id="f7E5iX_CI0--iNyVOqC2-1" value="+output(Person person) : String // 출력을 위한문자열반환 " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="P8jeqRXpjA01nZ9afECX-0">
           <mxGeometry y="138" width="509" height="26" as="geometry" />
         </mxCell>
         <mxCell id="P8jeqRXpjA01nZ9afECX-22" value="+add(Person person) : Person  //person정보 벡터에 추가기" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
@@ -34,7 +34,7 @@
           <mxGeometry y="240" width="509" height="26" as="geometry" />
         </mxCell>
         <mxCell id="P8jeqRXpjA01nZ9afECX-10" value="Person" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="386" y="611" width="310" height="162" as="geometry">
+          <mxGeometry x="386" y="611" width="310" height="209" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -47,13 +47,13 @@
         <mxCell id="P8jeqRXpjA01nZ9afECX-13" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-10" vertex="1">
           <mxGeometry y="78" width="310" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="AGnKkswIksJs2r1xKDmr-33" value="+ getName() : String&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;+ getPhone() : String" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-10" vertex="1">
-          <mxGeometry y="86" width="310" height="55" as="geometry" />
+        <mxCell id="AGnKkswIksJs2r1xKDmr-33" value="&amp;nbsp;Person() : void&lt;br&gt;&lt;br&gt;&amp;nbsp;Person (String name, String phone) : void&lt;br&gt;&lt;br&gt;+ getName() : String&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;+ getPhone() : String" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-10" vertex="1">
+          <mxGeometry y="86" width="310" height="123" as="geometry" />
         </mxCell>
         <mxCell id="te0iCXtoX0ai0mT4FdgT-9" value="Display extends JFrame" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="28.5" y="258" width="265" height="563" as="geometry" />
         </mxCell>
-        <mxCell id="te0iCXtoX0ai0mT4FdgT-10" value="//PhoneBook 사용&#xa;+phoneBook : PhoneBook&#xa;// 버튼 기능 수행시 잠깐 저장할 임시변수&#xa;+tempPerson : Person&#xa;&#xa;//화면 구성 요소&#xa;+frame: JFrame                 //화면 틀&#xa;+nameBox: JTextField      //이름 입력 칸&#xa;+phoneBox: JTextField     //번호 입력 칸&#xa;+textArea: JTextArea        //출력창&#xa;+scroll: JScrollPane   //출력창의 스크롤&#xa;&#xa;//버튼의 종류&#xa;+addButton : JButton          //추가버튼&#xa;+searchButton : JButton     //검색버튼&#xa;+sortButton : JButton          //정렬버튼&#xa;+mButton : JButton            //변경버튼&#xa;+dButton : JButton             //삭제버튼&#xa;+exitButton : JButton          //종료버튼&#xa;&#xa;//버튼 동작&#xa;+ listener : ActionListener&#xa;&#xa;//버튼을 눌렀을 때 PhoneBook에 있는 &#xa;기능들이 버튼 종류에 따라 실행되도록 &#xa;이벤트발생&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacing=2;spacingTop=1;fontSize=14;" parent="te0iCXtoX0ai0mT4FdgT-9" vertex="1">
+        <mxCell id="te0iCXtoX0ai0mT4FdgT-10" value="//PhoneBook 사용&#xa;phoneBook : PhoneBook&#xa;// 버튼 기능 수행시 잠깐 저장할 임시변수&#xa;+tempPerson : Person&#xa;&#xa;num : int // 저장된 배열의 인덱스 확인&#xa;cntSize : int //저장된 배열의 개수 카운트&#xa;&#xa;//화면 구성 요소&#xa;+frame: JFrame                 //화면 틀&#xa;+nameBox: JTextField      //이름 입력 칸&#xa;+phoneBox: JTextField     //번호 입력 칸&#xa;+textArea: JTextArea        //출력창&#xa;+scroll: JScrollPane   //출력창의 스크롤&#xa;&#xa;//버튼의 종류&#xa;+addButton : JButton          //추가버튼&#xa;+searchButton : JButton     //검색버튼&#xa;+sortButton : JButton          //정렬버튼&#xa;+mButton : JButton            //변경버튼&#xa;+dButton : JButton             //삭제버튼&#xa;+exitButton : JButton          //종료버튼&#xa;&#xa;//버튼 동작&#xa;+ listener : ActionListener&#xa;&#xa;//버튼을 눌렀을 때 PhoneBook에 있는 &#xa;기능들이 버튼 종류에 따라 실행되도록 &#xa;이벤트발생&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacing=2;spacingTop=1;fontSize=14;" parent="te0iCXtoX0ai0mT4FdgT-9" vertex="1">
           <mxGeometry y="26" width="265" height="465" as="geometry" />
         </mxCell>
         <mxCell id="te0iCXtoX0ai0mT4FdgT-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=14;" parent="te0iCXtoX0ai0mT4FdgT-9" vertex="1">
