@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-05T03:02:46.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="IhGFCHtd_yOAogdAn_TN" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-05T03:49:31.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="DCCU7R7o-0p_jNnd5541" version="14.4.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1391" dy="832" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1182" dy="707" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -21,10 +21,10 @@
         <mxCell id="f7E5iX_CI0--iNyVOqC2-1" value="+output(Person person) : String // 출력을 위한문자열반환 " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="P8jeqRXpjA01nZ9afECX-0">
           <mxGeometry y="138" width="509" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P8jeqRXpjA01nZ9afECX-22" value="+add(Person person) : Person  //person정보 벡터에 추가기" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
+        <mxCell id="P8jeqRXpjA01nZ9afECX-22" value="+add(Person person) : Person  //추가기능" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
           <mxGeometry y="164" width="509" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P8jeqRXpjA01nZ9afECX-23" value="+search(Person person) : Person    //person의 정보를 가진사람을 검색&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
+        <mxCell id="P8jeqRXpjA01nZ9afECX-23" value="+search(Person person) : Person    //검색기능&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
           <mxGeometry y="190" width="509" height="24" as="geometry" />
         </mxCell>
         <mxCell id="P8jeqRXpjA01nZ9afECX-25" value="+modify(int index, Person person): Person  //index번째의 저장된 사람 변경" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="P8jeqRXpjA01nZ9afECX-0" vertex="1">
